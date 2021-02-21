@@ -11,5 +11,5 @@ class Coordenada:
     def distancia(self, otra_coordenada):
         delta_x = self.x - otra_coordenada.x
         delta_y = self.y - otra_coordenada.y
-
+        #Aplicando teorema de pitagoras para obtener la distancia
         return (delta_x**2 + delta_y**2)**0.5

@@ -6,6 +6,7 @@ class Campo:
     def anadir_borracho(self, borracho, coordenada):
         self.coordenadas_de_borrachos[borracho]=coordenada
 
+    #Por cada vez que se llama esta funcion, se mueve el borracho en una posicion y se actualizan sus coordenadas actuales
     def mover_borracho(self, borracho):
         delta_x,  delta_y = borracho.camina()
         coordenada_actual = self.coordenadas_de_borrachos[borracho]
