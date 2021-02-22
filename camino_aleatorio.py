@@ -12,7 +12,7 @@ def graficar (x,y):
 
 
 def graficar_2(x, y):
-    grafica = figure(title = 'Camino aleatorio', x_axis_label = 'pasos', y_axis_label = 'Distancia')
+    grafica = figure(title = 'Camino aleatorio', x_axis_label = 'Movimiento', y_axis_label = 'Movimiento')
     grafica.line(x,y, legend_label = 'Camino', color = 'yellowgreen')
     # grafica.line(x[0:2],y[0:2],color='black',line_width=10)
     # grafica.line(x[-3:-1],y[-3:-1],color='red',line_width=10)
